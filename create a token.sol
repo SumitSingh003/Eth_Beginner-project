@@ -23,8 +23,6 @@ contract Token {
         {
         t_supply -= val;
         balance[addr] -= val; 
-        }
-        
+        } 
     }
-
 }
